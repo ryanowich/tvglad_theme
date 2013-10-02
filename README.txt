@@ -110,4 +110,9 @@ or bug report:
 http://drupal.org/project/issues/boilerplate
 
 Current maintainers:
+Dan Linn - dan@metaltoad.comug report:
+
+http://drupal.org/project/issues/boilerplate
+
+Current maintainers:
 Dan Linn - dan@metaltoad.com

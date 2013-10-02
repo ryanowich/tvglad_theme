@@ -27,27 +27,23 @@
 	
 	<div id="main" role="main">
 		<div id="content">
-						
-			<?php if ($is_front): ?>
+												
+			<?php if ($page['page_header']): ?>
 				<header class="header">
+				<?php print render($page['page_header']); ?>
+				
 				<?php
-					print render($slideshowfront);
+					if ($is_front) {
+					// Custom afd. text
+					} elseif (!empty($header)) {
+						// Get afd. text from inc script
+						print $header;
+					}					
 				?>
-				</header>
-			
-			<?php elseif (!empty($header)): ?>
-				<header class="header">
-				<?php
-						print render($slideshow);
-				print $header;
-				?>
-			
-				<?php if ($page['page_header']): ?>
-					<?php print render($page['page_header']); ?>
-				<?php endif; ?>
-					
 				</header>
 			<?php endif; ?>
+					
+			
 			
 			
 			<?php if ($page['content_top']): ?>
@@ -107,8 +103,28 @@
 			
 			<aside id="sidebar" class="column sidebar">
 				<div id="sidebar-inner" class="inner">
+					<?php
+					/*
+					if (isset($referrer)) {
+						//echo 'validURL: ' . request_uri() . '<br />';
+						echo '<p>Referrer: ';
+						print $referrer;
+						//echo $_SERVER['HTTP_REFERER'];
+						echo '</p>';
+					}
+					*/
+					?>
 					<h2 class="block-title visuallyhidden">Undermenu</h2>
-									
+					
+					<nav id="subnav">
+						<h2>Test:</h2>
+						<pre style="font-size:50%;">
+						<?php
+						print_r($secondary_menu);
+						?>
+						</pre>
+					</nav>
+					
 					<?php if ($secondary_menu): ?>						
 						<nav id="subnav">
 							<?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary', 'class' => array('links', 'clearfix', 'sub-menu')))); ?>

@@ -16,7 +16,6 @@ require_once __DIR__ . '/includes/menu.inc';
 // Logo change
 require_once __DIR__ . '/includes/logo.php';
 require_once __DIR__ . '/includes/header.php';
-require_once __DIR__ . '/includes/slideshow.php';
 
 /* My custom stuff */
 function tvglad_parentVar(&$vars, $varname) {
@@ -192,27 +191,25 @@ function tvglad_preprocess_page(&$vars, $hook) {
 	$vars['parent'] = $parentVars['parent'];
 	$vars['logo'] = tvglad_logo($parentVars['parent']);
 	$vars['header'] = tvglad_header($parentVars['parent']);
-	$vars['slideshow'] = tvglad_slideshow($parentVars['parent']);
-	$vars['slideshowfront'] = tvglad_slideshow('front');
 	
-	// From http://www.leccionespracticas.com/informatica-web/drupal-informatica-web/drupal-7-display-search-box-in-page-tpl-php-or-other-template-files-solved/#sthash.Tgu3Vpbw.dpuf
-	//$block = module_invoke('search','block_view','search');
-	//$rendered_block1 = render($block);
-	//$variables['mysearchblock'] = $rendered_block1;
-	
-	// From http://www.wdtutorials.com/2012/04/16/drupal-7-how-print-blocks-templates#.UimMjGSSCgE
-	// Print a views block
-	//$slideshowblock = module_invoke('views','block_view','slideshow_tv-block');
-	//print render($slideshowblock);
-	//$rendered_slideshowblock = render($slideshowblock);
-	//$vars['slideshowblock'] = $rendered_slideshowblock;
-	//$vars['slideshowblock'] = $slideshowblock;
-	//$vars['slideshowblock'] = render($slideshowblock);
-	
-	/*
-	$slideshowblockTV = module_invoke('views','block_view','slideshow_tv-block');
-	$vars['slideshowblock_tv'] = $slideshowblockTV;
-	*/
+	if (isset($_SERVER['HTTP_REFERER'])) {
+		// Use parse_url() to create array
+		$uri = parse_url($_SERVER['HTTP_REFERER']);
+		//echo '<p>Referrer: ' . $uri['host'] . '</p>';
+		if (isset($uri['host'])) {
+			$referrer = $uri['host'];
+			$vars['referrer'] = $referrer;
+			
+			if ($referrer == "tv-glad.dev" || $referrer == "tv-glad.dk" || $referrer == "gladmedier.dk") {
+				$vars['showslideshow'] = true;
+			} else {
+				$vars['showslideshow'] = false;
+			}
+			
+		} else {
+			// No referrer
+		}
+	}
 }
 
 /* Theme wrapper function for the primary menu links */
@@ -509,6 +506,27 @@ function tvglad_menu_local_tasks(&$variables) {
 
 }
 
+//tvglad_menu_tree__menu_block__1() < tvglad_menu_tree__menu_block__main_menu() < tvglad_menu_tree__menu_block() < tvglad_menu_tree__main_menu() < tvglad_menu_tree()
+
+
+function tvglad_menu_tree__main_menu($variables){
+	//print_r($variables);
+	//print_r($element);
+	//print_r($variables['tree']);
+	//$element['#attributes']['class'][] = 'depth-' . $element['#original_link']['depth'];
+	//print_r($variables['tree']);
+	//echo($variables['tree']);
+	
+//return '<ul class="nav_main">' . $variables['tree'] . '</ul>';
+	//return '<ul class="' . $variables['#original_link']['depth'] . '">' . $variables['tree'] . '</ul>';
+	//return '<ul class="' . $variables['tree'] . '">' . $variables['tree'] . '</ul>';
+	//return '<ul class="' . print_r($variables['tree']) . '">' . $variables['tree'] . '</ul>';
+	//return '<ul class="' . $variables[1] . '">' . $variables['tree'] . '</ul>';
+	
+	//return '<ul class="nav_main">' . $variables['tree'] . '</ul>';
+	return '<ul class="nav_sub">' . $variables['tree'] . '</ul>';
+	//return '<ul class="menu-"'.$variables["menu-name"].'">'. $variables['tree'] .'</ul>';
+}
 //tvglad_menu_tree__menu_block__1() < tvglad_menu_tree__menu_block__main_menu() < tvglad_menu_tree__menu_block() < tvglad_menu_tree__main_menu() < tvglad_menu_tree()
 
 

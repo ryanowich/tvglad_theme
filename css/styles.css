@@ -1582,6 +1582,10 @@ body.front #nav_full ul li.active-trail ul {
   position: relative;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000321}}
+#main #content .header h2.block-title {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000325}}
 #main #content .header > h1.headerbox {
   position: absolute;
   bottom: 10%;
@@ -1594,18 +1598,18 @@ body.front #nav_full ul li.active-trail ul {
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000343}}
 #main #content .header .view-content .rs-carousel {
   position: relative;
   width: 100%;
-  height: 470px;
+  height: 376px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000345}}
 #main #content .header .view-content .rs-carousel ul {
   padding: 0 0 0 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000358}}
 #main #content .header .view-content .rs-carousel ul, #main #content .header .view-content .rs-carousel ol {
   margin: 0;
   list-style: none;
@@ -1615,7 +1619,7 @@ body.front #nav_full ul li.active-trail ul {
   white-space: nowrap;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000369}}
 #main #content .header .view-content .rs-carousel ul li, #main #content .header .view-content .rs-carousel ol li {
   margin: 0;
   padding: 0 2px 0 0;
@@ -1627,18 +1631,18 @@ body.front #nav_full ul li.active-trail ul {
   position: relative;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000382}}
 #main #content .header .view-content .rs-carousel ul li img, #main #content .header .view-content .rs-carousel ol li img {
   width: auto;
-  height: 116%;
-  margin-top: -3%;
+  height: 100%;
+  width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000397}}
 #main #content .header .view-content .rs-carousel .rs-carousel-mask {
   position: relative;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003101}}
 #main #content .header .view-content .rs-carousel .rs-carousel-mask .rs-carousel-runner {
   position: relative;
   -moz-transform: translate3d(0, 0, 0);
@@ -1647,7 +1651,7 @@ body.front #nav_full ul li.active-trail ul {
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003111}}
 #main #content .header .view-content .rs-carousel .rs-carousel-mask .rs-carousel-transition .rs-carousel-runner {
   -moz-transition: -moz-transform .400s ease;
   -webkit-transition: -webkit-transform .400s ease;
@@ -1655,23 +1659,23 @@ body.front #nav_full ul li.active-trail ul {
   -ms-transition: -ms-transform .400s ease;
   transition: transform .400s ease;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003120}}
 #main #content .header .view-content .rs-carousel.rs-carousel-horizontal .rs-carousel-item {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003124}}
 #main #content .header .view-content .rs-carousel .rs-carousel-pagination {
   padding-left: 20px;
   position: absolute;
-  top: 445px;
+  top: 351px;
   left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003130}}
 #main #content .header .view-content .rs-carousel .rs-carousel-pagination li {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003134}}
 #main #content .header .view-content .rs-carousel .rs-carousel-pagination li.rs-carousel-pagination-link a {
   /*
   background-color: #9FC4DC;
@@ -1701,12 +1705,12 @@ body.front #nav_full ul li.active-trail ul {
   -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003165}}
 #main #content .header .view-content .rs-carousel .rs-carousel-pagination li.rs-carousel-pagination-link-active a {
   background: #fff;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003172}}
 #main #content .header .view-content .rs-carousel a.rs-carousel-action {
   position: absolute;
 }
