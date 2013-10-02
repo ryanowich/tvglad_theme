@@ -2,7 +2,7 @@ name = TV Glad
 description = Metaltoad HTML5/SASS base theme for Drupal 7. Based on Boilerplate.
 screenshot = img/theme_screenshot.png
 core = 7.x
-version = 2.2
+version = 2.1
 project = tvglad
 engine = phptemplate
 
