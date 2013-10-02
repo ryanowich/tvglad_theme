@@ -1,0 +1,15 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tvglad\.dev\/sites\/all\/themes\/tvglad\/scss\/ie7\.scss}line{font-family:\0000313}}
+.lt-ie8 #content tr.even th,
+.lt-ie8 #content tr.even td,
+.lt-ie8 #content tr.odd th,
+.lt-ie8 #content tr.odd td {
+  border-bottom: 1px solid #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tvglad\.dev\/sites\/all\/themes\/tvglad\/scss\/ie7\.scss}line{font-family:\0000323}}
+.lt-ie8 ul.primary li a:hover,
+.lt-ie8 ul.secondary li a:hover {
+  cursor: pointer;
+  color: #555555;
+  text-decoration: none;
+}

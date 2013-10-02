@@ -1,0 +1,1992 @@
+@font-face {
+  font-family: "TVGladImpact";
+  src: url("../fonts/Impact.eot");
+  src: url("../fonts/Impact.eot?#iefix") format("embedded-opentype"), url("../fonts/Impact.woff") format("woff"), url("../fonts/Impact.ttf") format("truetype"), url("../fonts/Impact.svg#21f59b54f62b5b8b4bc0f63f0f617fc1") format("svg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\000038}}
+body {
+  font-size: 100%;
+}
+
+/* Font weight notes
+Light:
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 300;
+
+Regular:
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 400;
+
+Bold:
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 700;
+
+Black:
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 900;
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000334}}
+body {
+  font-size: .83em;
+  line-height: 1.5em;
+  font-family: Verdana, "Trebuchet MS" ", Helvetica Neue", Arial, Sans-serif;
+  font-style: normal;
+  color: #696969;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000346}}
+#main #content .header h1 {
+  /*
+  // For FitText.js
+  display: block;
+  width: 100%;
+  margin-top: 0em;
+  margin-bottom: 0;
+  */
+  color: #ffffff;
+  line-height: .9em;
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000364}}
+#main #content .header h1.headerbox {
+  font-family: "TVGladImpact";
+  font-style: normal !important;
+  letter-spacing: 0 !important;
+  font-weight: normal !important;
+  text-transform: lowercase !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000372}}
+#content article h1 {
+  font-size: 2em;
+  letter-spacing: -.05em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000381}}
+a {
+  color: dimgrey;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000384}}
+a:visited {
+  color: dimgrey;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000385}}
+a:hover {
+  color: #23454e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000386}}
+a:focus {
+  color: #23454e;
+  outline: thin dotted;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000390}}
+a:hover, a:active {
+  color: #23454e;
+  text-decoration: underline;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\0000398}}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #615c4f;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003103}}
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+  color: dimgrey;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003104}}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+  color: #23454e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003105}}
+h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus, h5 a:focus, h6 a:focus {
+  color: #23454e;
+  outline: thin dotted;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003109}}
+h1 a:hover, h1 a:active, h2 a:hover, h2 a:active, h3 a:hover, h3 a:active, h4 a:hover, h4 a:active, h5 a:hover, h5 a:active, h6 a:hover, h6 a:active {
+  color: #23454e;
+  text-decoration: none;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003118}}
+#footer p {
+  margin: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003126}}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em;
+  color: #615c4f;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003132}}
+h1 {
+  font-weight: 700;
+  padding: 0 0 0.5em 0;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -.05em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003143}}
+h2 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003151}}
+h3 {
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003156}}
+h4 {
+  font-size: 18px;
+  line-height: 27px;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  margin-bottom: 0.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003161}}
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003167}}
+h6 {
+  font-size: 13px;
+  line-height: 19.5px;
+  font-size: 1.3rem;
+  line-height: 1.95rem;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003172}}
+p {
+  margin: 0 0 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003176}}
+abbr {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003182}}
+b, strong {
+  font-weight: bold;
+}
+
+/*
+blockquote {
+	margin: 1em 40px;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003191}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003195}}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003204}}
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003210}}
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003217}}
+pre, code, kbd, samp, tt {
+  font-family: "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
+  line-height: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003223}}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #efefef;
+  display: block;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #aaa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003234}}
+q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003238}}
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003243}}
+small {
+  font-size: 85%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003247}}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003254}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003258}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003265}}
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003270}}
+dd {
+  margin: 0 0 0 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003274}}
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003281}}
+ul {
+  list-style-type: disc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003283}}
+ul ul {
+  list-style-type: circle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003285}}
+ul ul ul {
+  list-style-type: square;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003287}}
+ul ul ul ul {
+  list-style-type: circle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003294}}
+ol {
+  list-style-type: decimal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003296}}
+ol ol {
+  list-style-type: lower-alpha;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003298}}
+ol ol ol {
+  list-style-type: decimal;
+}
+
+/* Blockquoes */
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/icons.eot");
+  src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.svg#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003318}}
+blockquote {
+  /*background: #363738 url(../images/dark_leather.jpg) repeat top left;*/
+  position: relative;
+  margin: 1em 40px 2em 50px;
+  padding-top: 1em;
+  width: 70%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003332}}
+blockquote p {
+  margin: 8px 0 1em 0;
+  padding: 0;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003341}}
+blockquote:before,
+blockquote:after {
+  font-family: 'icons';
+  position: absolute;
+  font-size: 40px;
+  color: #DEDEDE;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003352}}
+blockquote:before {
+  content: '\275d';
+  margin-left: -50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_typography\.scss}line{font-family:\00003357}}
+blockquote:after {
+  bottom: -20px;
+  right: 0;
+  content: '\e800';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000314}}
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(../js/libs/boxsizing.htc);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Utilities\%20Extra\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000325}}
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000331}}
+audio:not([controls]) {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000335}}
+[hidden] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000340}}
+#skip a {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_mixins\.scss}line{font-family:\0000388}}
+#skip a:active, #skip a:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static !important;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000349}}
+#site-name {
+  font-size: 28px;
+  line-height: 42px;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  font-weight: 300;
+  padding: 0 0 0.5em;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000357}}
+div.view div.views-admin-links {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000366}}
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+  *line-height: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000376}}
+.ir br {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000381}}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000386}}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000388}}
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static !important;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000393}}
+.invisible {
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\0000397}}
+.clearfix {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_mixins\.scss}line{font-family:\0000395}}
+.clearfix:before {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Utilities\%20Extra\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003102}}
+.clearleft, .clearl, .cleft {
+  clear: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003105}}
+.clearright, .clearr, .cright {
+  clear: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003109}}
+.clear, .clearboth, .clearall {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003114}}
+.floatleft, .fleft, .floatl {
+  display: inline;
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003118}}
+.floatright, .fright, .floatr {
+  display: inline;
+  float: right;
+  margin: 0 0 5px 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003127}}
+#system-themes-form img {
+  width: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003131}}
+.form-item .description {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: 5px;
+  color: #777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003138}}
+#edit-delete {
+  color: #c00;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003143}}
+div.messages {
+  padding: 9px;
+  margin: 1em 0;
+  color: #036;
+  background: #bdf;
+  border: 1px solid #ace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003151}}
+div.warning {
+  color: #840;
+  background: #fe6;
+  border-color: #ed5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003157}}
+div.error {
+  color: white;
+  background: #e63;
+  border-color: #d52;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003163}}
+div.status {
+  color: #360;
+  background: #cf8;
+  border-color: #bbee77;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003172}}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003178}}
+html, body {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003180}}
+html, button, input, select, textarea {
+  font-family: "proxima-nova", sans-serif, Helvetica, Helvetica Neue, Arial;
+  color: dimgrey;
+}
+
+/*
+body {
+  margin: 0;
+  @include font-size(13);
+  font-family: $main_font;
+  letter-spacing: 0.03em;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003198}}
+::-moz-selection {
+  background: #398eb9;
+  color: white;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003203}}
+::selection {
+  background: #398eb9;
+  color: white;
+  text-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003213}}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003219}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003226}}
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003233}}
+form {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003237}}
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003241}}
+label {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003245}}
+legend {
+  border: 0;
+  *margin-left: -7px;
+  padding: 0;
+  white-space: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003252}}
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003259}}
+button, input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003267}}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003273}}
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003278}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003285}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003293}}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003298}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003303}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003313}}
+input:invalid,
+textarea:invalid {
+  background-color: #f0dddd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003320}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 99%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003326}}
+td {
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003332}}
+tr.even td,
+tr.odd td {
+  padding: 10px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003337}}
+tr.odd {
+  background-color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003344}}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: black;
+  padding: 0.2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003368}}
+.wireframe-mode #header,
+.wireframe-mode #content-top,
+.wireframe-mode #content-top > *,
+.wireframe-mode #content-header,
+.wireframe-mode #content-header > *,
+.wireframe-mode #content-area,
+.wireframe-mode #content-area > *,
+.wireframe-mode #content-bottom,
+.wireframe-mode #content-bottom > *,
+.wireframe-mode #primary,
+.wireframe-mode #secondary,
+.wireframe-mode #sidebar-left-inner,
+.wireframe-mode #sidebar-right-inner,
+.wireframe-mode .block {
+  padding: 2px;
+  border: 1px solid #bbbbbb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003372}}
+.wireframe-mode .node {
+  border-bottom: 1px solid #bbbbbb;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003376}}
+.wireframe-mode .block {
+  margin-bottom: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003382}}
+.wireframe-mode #content-top,
+.wireframe-mode #content-header,
+.wireframe-mode #content-area,
+.wireframe-mode #content-bottom {
+  margin: 0 3px 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003385}}
+.wireframe-mode #footer {
+  margin-top: 3px;
+  padding: 2px;
+  border: 1px solid #cccccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003392}}
+.wireframe-mode .with-navigation #content,
+.wireframe-mode .with-navigation .sidebar {
+  margin-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_document\.scss}line{font-family:\00003396}}
+.wireframe-mode #nav_full {
+  height: 50px;
+}
+
+/* Search results */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_modules\.scss}line{font-family:\0000328}}
+ol.search-results {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_modules\.scss}line{font-family:\0000332}}
+ol.search-results li.search-result {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_modules\.scss}line{font-family:\0000337}}
+ol.search-results li.search-result .search-snippet-info {
+  padding-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_modules\.scss}line{font-family:\0000343}}
+#sidebar ul.menu {
+  background: transparent;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\000035}}
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000312}}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000319}}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000324}}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000336}}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000345}}
+.invisible {
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000350}}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000355}}
+.clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_helper\.scss}line{font-family:\0000359}}
+.clearfix {
+  *zoom: 1;
+}
+
+/* BASE (MOBILE) SIZE
+This are the mobile styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important. */
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\000039}}
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000317}}
+body {
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000323}}
+#wrapper {
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000333}}
+#main {
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000339}}
+.nav_container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000341}}
+#nav_toplevel {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000345}}
+#nav_full {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000347}}
+#nav_full h3, #nav_full a {
+  height: 45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000348}}
+#nav_full > ul > li > a {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding-top: .9em;
+  padding-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000355}}
+#nav_full > ul > li > ul > li > a {
+  font-size: 1.1em;
+  font-weight: 700;
+  padding-top: 1.0em;
+  padding-left: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000363}}
+.nav_container {
+  float: left;
+  clear: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000371}}
+.nav_container #logo {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  position: relative;
+  float: none;
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* 2 */
+  box-sizing: border-box;
+  padding-left: 19px;
+  padding-right: .9em;
+  cursor: pointer;
+  /*
+  img, svg {
+  	height: 100%;
+  	width: auto;
+  	float: left;
+  }*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\0000388}}
+.nav_container #logo a.logolink {
+  display: none;
+}
+
+/*
+#main {
+	//width: 73%;
+	//width: 100%;
+	max-width: 870px;
+	float: left;
+	clear: right;
+	#content {
+		.header {}
+	}
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003115}}
+#main #content .header {
+  padding: 2px;
+  margin-bottom: 3em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003122}}
+#main #content .header h1.headerbox {
+  font-size: 4.0em;
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003134}}
+body #main #content .header,
+body.front #main #content .header,
+body.childof-tv #main #content .header {
+  background-color: #1FA138;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003138}}
+body.childof-radio #main #content .header {
+  background-color: #802A6A;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003142}}
+body.childof-animation #main #content .header {
+  background-color: #FCCE00;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003147}}
+body.childof-production #main #content .header {
+  background-color: #00708A;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003152}}
+body.childof-kontakt #main #content .header {
+  background-color: #3b3b3b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003158}}
+body #main #content .header h1 {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003161}}
+nav, header, article, section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003183}}
+#main #content #content-header, #main #content #content-inner {
+  width: 95%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003189}}
+#main #content #sidebar {
+  float: none;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003195}}
+#main #content #sidebar #subnav {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003205}}
+#content #content-inner #content-area .content {
+  overflow: auto;
+  zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003213}}
+#content #content-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003226}}
+.ie7 .title {
+  padding-top: 20px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003236}}
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003244}}
+.footer_container {
+  position: relative;
+  clear: both;
+  margin-top: -4em;
+  height: 4em;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  background: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003255}}
+.footer_container footer {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1.2em 0 1.2em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003262}}
+.footer_container footer .region .block-title {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003264}}
+.footer_container footer a {
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   Custom fixes
+   ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003272}}
+img.alignnone {
+  float: none;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_base\.scss}line{font-family:\00003278}}
+.mejs-audio {
+  margin: 1em 0 1em 0 !important;
+}
+
+/* Override properties for #gladsharedtopbar */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_gladsharedtopbar_custom\.scss}line{font-family:\000034}}
+#gladsharedtopbar #gladsharedtopbarinner {
+  margin: 0 auto !important;
+  max-width: 1200px !important;
+}
+
+@media screen and (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_gladsharedtopbar_custom\.scss}line{font-family:\0000314}}
+  #gladsharedtopbar #gladsharedtopbarinner {
+    width: 96% !important;
+    max-width: 960px !important;
+  }
+}
+/* ==============
+    Menu
+   ============== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\000035}}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\000039}}
+nav ul li {
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000312}}
+nav, .nav {
+  line-height: 1em;
+  font-family: Verdana, "Trebuchet MS" ", Helvetica Neue", Arial, Sans-serif;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000320}}
+nav a:hover,
+nav a:visited,
+nav a:hover {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000324}}
+#nav_toplevel {
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000327}}
+#nav_toplevel a {
+  color: #333;
+  font-size: 1.05em;
+  margin-left: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000333}}
+#nav_toplevel a, #nav_toplevel a:hover, #nav_toplevel a:visited {
+  text-decoration: none;
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000345}}
+#main #content #sidebar h2.block-title {
+  padding-bottom: .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000351}}
+#main #content #sidebar #subnav {
+  padding-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000353}}
+#main #content #sidebar #subnav ul, #main #content #sidebar #subnav li {
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000354}}
+#main #content #sidebar #subnav ul {
+  padding: 0 0 0 .1em;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000355}}
+#main #content #sidebar #subnav li {
+  display: block;
+  margin: 0 0 .2em 0;
+  padding-left: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000361}}
+#main #content #sidebar #subnav a {
+  color: #333;
+  line-height: 1.7em;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000371}}
+#nav_full {
+  position: relative;
+  width: 100%;
+  clear: both;
+  margin-top: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000377}}
+#nav_full a:hover, #nav_full a:visited {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000378}}
+#nav_full h3, #nav_full a {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* 2 */
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #f1f5f8;
+  display: block;
+  text-align: left;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\0000394}}
+#nav_full > ul > li > a {
+  color: #f1f5f8;
+  background: #398fb5;
+  border-bottom: 1px solid #4d9abd;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003101}}
+#nav_full > ul > li > ul > li > a {
+  color: #f1f5f8;
+  font-weight: 400;
+  background: #98c3d2;
+  border: 1px solid #72aec7;
+  border-top: none;
+}
+
+/*custom font for text*/
+/*CSS file for fontawesome - an iconfont we will be using. This CSS file imported contains the font-face declaration. More info: http://fortawesome.github.io/Font-Awesome/ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003120}}
+#nav_full {
+  /*
+  ul > li.leaf {
+  	&:after {
+  		content: "" !important;
+  	}
+  }*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003130}}
+#nav_full > ul > li > a {
+  margin: 0;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003136}}
+#nav_full > ul > li > a:after {
+  content: "\+";
+  color: #72aec7;
+  float: right;
+  margin-right: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003145}}
+#nav_full > ul > li > a.subnavopen:after {
+  content: "\00d7";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003148}}
+#nav_full > ul > li > a:hover {
+  background-color: #2c7ca5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003150}}
+#nav_full > ul > li > a:hover:after {
+  color: #d2e3e4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003152}}
+#nav_full > ul > li > a span {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003156}}
+#nav_full > ul > li.leaf > a:after {
+  content: "" !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003162}}
+#nav_full > ul > li.outbound > a:after {
+  content: "\00a0" !important;
+  min-width: 11px;
+  min-height: 8px;
+  background-image: url(../img/menu_arrow_outbound.png);
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003173}}
+#nav_full > ul > li.outbound > a:hover:after {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003180}}
+#nav_full {
+  /* Hide non active lis by default */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003182}}
+#nav_full ul ul li a {
+  transition: all 0.15s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003186}}
+#nav_full ul ul li a:hover {
+  background: #72aec7;
+  border-left: .5em solid transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003192}}
+#nav_full ul ul {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003193}}
+#nav_full ul li.active-trail ul {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_menu\.scss}line{font-family:\00003197}}
+body.front #nav_full ul li.active-trail ul {
+  display: none;
+}
+
+/* News/Article styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\000033}}
+#content-header h1.title {
+  padding-bottom: .7em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\000038}}
+#content-inner #content-header h1.title {
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\000039}}
+#content-inner #content-area h2 {
+  margin-bottom: 1em;
+}
+
+/* Articles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000316}}
+#main #content #content-inner #content-area .view .view-content .item-list ul, #main #content #content-inner #content-area .view .view-content .item-list li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000323}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #d3d3cb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000335}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header h2 a {
+  /*
+  &::after {
+  	content: " ";
+  	display: block;
+  	height: 8px;
+  	//width: 100px;
+  	//width: 100%;
+  	background: #323232;
+  	margin: 20px 0;
+  }*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000350}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header span.content_type {
+  float: left;
+  padding-right: .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000354}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header span.content_type:after {
+  content: ": ";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000359}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header span.date {
+  /*
+  background: url(../img/sprite.png) bottom left no-repeat;
+  float: left;
+  margin-left: -120px;
+  padding-bottom: 14px;
+  width: 100px;
+  */
+  padding-bottom: 1em;
+  float: left;
+  clear: right;
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_mixins\.scss}line{font-family:\0000395}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header span.date:before {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/Utilities\%20Extra\/CodeKit\.app\/Contents\/Resources\/engines\/compass\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header span.date:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000378}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header span.date span.username {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\0000382}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner header span.date span {
+  /*
+  width: 100%;
+  background: #eb374b;
+  color: #fff;
+  //font-family: Arvo, Cambria, Georgia, Times, serif;
+  font-size: 0.75em;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 5px 10px;
+  text-align: right;
+  text-transform: uppercase;
+  */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003103}}
+#main #content #content-inner #content-area .view .view-content .item-list ul li.views-row article .node-inner footer .links ul li.comment_forbidden {
+  display: none;
+}
+
+/* Pager */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003120}}
+.item-list .pager {
+  text-align: left;
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003124}}
+.item-list .pager li {
+  margin: 0 0 0.25em .5em;
+}
+
+/* Video Arkiv */
+/*
+#main #content #content-inner #content-area {
+	.block-inner .content .view .view-content 
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003136}}
+.video_container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d3d3cb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003142}}
+.video_container img.fullwidth {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003146}}
+.video_container .videopreview {
+  width: 62%;
+  margin: 0 2% 0 0;
+  min-height: 100%;
+  float: left;
+  clear: left;
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003156}}
+.video_container a {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003158}}
+.video_container .videoinfo {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 1.5em 1em 1em 2em;
+  bottom: 0;
+  left: 0;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: black transparent;
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003176}}
+.video_container .videoinfo p, .video_container .videoinfo a, .video_container .videoinfo h1, .video_container .videoinfo h2, .video_container .videoinfo h3, .video_container .videoinfo * {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003182}}
+.video_container .videoinfo h2 {
+  margin-bottom: .2em !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_news\.scss}line{font-family:\00003184}}
+.video_container .videoinfo a {
+  text-decoration: none;
+}
+
+/*
+.video_container {
+	a:hover .videoinfo {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		-ms-transform: translateY(0px);
+		transform: translateY(0px);
+		-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+		-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+		transition: transform 0.4s, opacity 0.1s;
+	}
+}*/
+/*
+ * jquery.rs.carousel.css 1.0.2
+ * https://github.com/richardscarrott/jquery-ui-carousel
+ *
+ * Copyright (c) 2013 Richard Scarrott
+ * http://www.richardscarrott.co.uk
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ * Depends:
+ *  a basic reset + items must have width & height
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000318}}
+#main #content .header {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000321}}
+#main #content .header h2.block-title {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000325}}
+#main #content .header > h1.headerbox {
+  position: absolute;
+  bottom: 10%;
+  left: 10px;
+  padding-left: 20px;
+  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000343}}
+#main #content .header .view-content .rs-carousel {
+  position: relative;
+  width: 100%;
+  height: 376px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000345}}
+#main #content .header .view-content .rs-carousel ul {
+  padding: 0 0 0 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000358}}
+#main #content .header .view-content .rs-carousel ul, #main #content .header .view-content .rs-carousel ol {
+  margin: 0;
+  list-style: none;
+  width: 690px;
+  height: 100%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000369}}
+#main #content .header .view-content .rs-carousel ul li, #main #content .header .view-content .rs-carousel ol li {
+  margin: 0;
+  padding: 0 2px 0 0;
+  display: inline;
+  overflow: auto;
+  list-style-type: none;
+  width: auto;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000382}}
+#main #content .header .view-content .rs-carousel ul li img, #main #content .header .view-content .rs-carousel ol li img {
+  width: auto;
+  height: 100%;
+  width: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\0000397}}
+#main #content .header .view-content .rs-carousel .rs-carousel-mask {
+  position: relative;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003101}}
+#main #content .header .view-content .rs-carousel .rs-carousel-mask .rs-carousel-runner {
+  position: relative;
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003111}}
+#main #content .header .view-content .rs-carousel .rs-carousel-mask .rs-carousel-transition .rs-carousel-runner {
+  -moz-transition: -moz-transform .400s ease;
+  -webkit-transition: -webkit-transform .400s ease;
+  -o-transition: -o-transform .400s ease;
+  -ms-transition: -ms-transform .400s ease;
+  transition: transform .400s ease;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003120}}
+#main #content .header .view-content .rs-carousel.rs-carousel-horizontal .rs-carousel-item {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003124}}
+#main #content .header .view-content .rs-carousel .rs-carousel-pagination {
+  padding-left: 20px;
+  position: absolute;
+  top: 351px;
+  left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003130}}
+#main #content .header .view-content .rs-carousel .rs-carousel-pagination li {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003134}}
+#main #content .header .view-content .rs-carousel .rs-carousel-pagination li.rs-carousel-pagination-link a {
+  /*
+  background-color: #9FC4DC;
+  border-radius: 6px 6px 6px 6px;
+  float: left;
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+  text-indent: -9999px;
+  cursor: pointer;
+  */
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+  -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003165}}
+#main #content .header .view-content .rs-carousel .rs-carousel-pagination li.rs-carousel-pagination-link-active a {
+  background: #fff;
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_rs\.carousel\.scss}line{font-family:\00003172}}
+#main #content .header .view-content .rs-carousel a.rs-carousel-action {
+  position: absolute;
+}
+
+/* LARGER MOBILE DEVICES
+This is for devices like the Galaxy Note or something that's
+larger than an iPhone but smaller than a tablet. Let's call them
+tweeners. */
+@media only screen and (min-width: 481px) {
+  /* 481up */
+  /* ====================
+      INTERMEDIATE: Menu
+     ==================== */
+  /*nav a {
+      float: left;
+      width: 27%;
+      margin: 0 1.7%;
+      padding: 25px 2%;
+      margin-bottom: 0;
+  }*/
+  /* ========================
+      INTERMEDIATE: IE Fixes
+     ======================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_481up\.scss}line{font-family:\0000327}}
+  nav ul li {
+    display: inline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_481up\.scss}line{font-family:\0000331}}
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+/* TABLET & SMALLER LAPTOPS
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles. */
+@media only screen and (min-width: 768px) {
+  /* 768up */
+  /* ====================
+      WIDE: CSS3 Effects
+     ==================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\000037}}
+  #wrapper {
+    padding-top: 30px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\000038}}
+  #wrapper, footer {
+    width: 96%;
+    max-width: 960px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000312}}
+  #main {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000317}}
+  #nav_toplevel {
+    display: block;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0.9em;
+    left: 170px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000326}}
+  #nav_full {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000328}}
+  .nav_container {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1.8em;
+    padding-bottom: 0.9em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000333}}
+  .nav_container #logo {
+    width: 170px;
+    height: 65px;
+    padding: 0;
+    background-color: transparent;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000342}}
+  #main #content .header h1.headerbox {
+    font-size: 8.0em;
+  }
+
+  /* ============
+      WIDE: Page
+     ============ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000355}}
+  #main #content #content-header {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000357}}
+  #main #content #content-inner {
+    width: 74%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000362}}
+  #main #content #content-inner.columnfullwidth {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000365}}
+  #main #content #content-inner.columnfullwidth #sidebar {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000369}}
+  #main #content #sidebar {
+    width: 23%;
+    float: right;
+    margin-left: 3%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000374}}
+  #main #content #sidebar .block-menu-block .block-title {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_768up\.scss}line{font-family:\0000378}}
+  #main #content #sidebar #subnav {
+    display: block;
+  }
+}
+/* DESKTOP
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles. */
+/* RETINA (2x RESOLUTION DEVICES)
+This applies to the retina iPhone (4s) and iPad (2,3) along with
+other displays with a 2x resolution. You can also create a media
+query for retina AND a certain size if you want. Go Nuts. */
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+	@import "2x";
+
+}*/
+/* PRINT STYLESHEET */
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000310}}
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000319}}
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000323}}
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000327}}
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000333}}
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000337}}
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000342}}
+  thead {
+    display: table-header-group;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000346}}
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000350}}
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000358}}
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000363}}
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000374}}
+  .sidebar,
+  #nav_full,
+  #search-theme-form,
+  #footer,
+  .breadcrumb,
+  .tabs,
+  .feed-icon,
+  .links {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000378}}
+  #wrapper {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000385}}
+  #content,
+  #content #content-inner,
+  .content,
+  .title {
+    margin: 20px 0;
+    width: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\0000394}}
+  a:hover, a:active, a:link, a:visited {
+    color: black;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_print\.scss}line{font-family:\00003100}}
+  #content a:link:after, #content a:visited:after {
+    content: " (" attr(href) ") ";
+    font-size: 11px;
+    line-height: 16.5px;
+    font-size: 1.1rem;
+    line-height: 1.65rem;
+    font-weight: normal;
+  }
+}
+/* DEV STYLESHEET
+Import styles only used for development. */
+/* DEV styles */
+/*
+nav, header, article, section, footer {
+	outline: 1px dotted green;
+}
+
+div {
+	outline: 1px dotted red;
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_dev\.scss}line{font-family:\0000313}}
+span#windowsize {
+  font-size: .8em;
+  padding: 1em;
+  color: #fff;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  background: #DE4A0C;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ryan\/Sites\/tv-glad\.dev\/sites\/all\/themes\/tvglad\/scss\/_dev\.scss}line{font-family:\0000324}}
+ul.menu {
+  background: #000;
+}

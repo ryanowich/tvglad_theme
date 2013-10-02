@@ -1,0 +1,63 @@
+name = TV Glad
+description = Metaltoad HTML5/SASS base theme for Drupal 7. Based on Boilerplate.
+screenshot = img/theme_screenshot.png
+core = 7.x
+version = 2.2
+project = tvglad
+engine = phptemplate
+
+regions[page_header] = Page Header
+regions[navbar] = Navigation Bar
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content_top] = Content Top
+regions[content_bottom] = Content Bottom
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; scripts[] = js/jquery.js
+scripts[] = js/vendor/modernizr.3dtransforms.touch.js
+scripts[] = js/vendor/jquery.ui.widget.js
+scripts[] = js/vendor/jquery.event.drag.js
+scripts[] = js/vendor/jquery.translate3d.js
+
+scripts[] = js/rscarousel/jquery.rs.carousel.js
+scripts[] = js/rscarousel/jquery.rs.carousel-autoscroll.js
+scripts[] = js/rscarousel/jquery.rs.carousel-continuous.js
+scripts[] = js/rscarousel/jquery.rs.carousel-touch.js
+
+scripts[] = js/plugins.js
+scripts[] = js/main.js
+
+;scripts[] = js/dev/window_width.js
+
+plugins[panels][layouts] = layouts
+
+; stylesheets[all][] = css/compiled/style.css
+stylesheets[all][] = css/styles.css
+
+stylesheets-conditional[lte IE 8][all][]  = css/compiled/ie8.css
+stylesheets-conditional[lte IE 7][all][]  = css/compiled/ie7.css
+stylesheets-conditional[lte IE 6][all][]  = css/compiled/ie6.css
+
+settings[basic_tabs] = 0
+settings[basic_breadcrumb_separator] = »
+settings[wireframe_mode] = 0
+<<<<<<< HEAD
+settings[clear_registry] = 0
+=======
+settings[clear_registry] = 0
+
+
+>>>>>>> 5d1823ed6e29eceebdcca0910da872195f9513ab
